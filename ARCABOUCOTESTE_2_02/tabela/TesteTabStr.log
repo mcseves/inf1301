@@ -1,0 +1,52 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: ExemploTabela
+!!!      Script de teste:     TesteTabStr.script
+
+!!!    0  Linha:     1  // Script:    Teste.script 
+!!!    0  Linha:     2  // Autor:     Arndt von Staa 
+!!!    0  Linha:     3  // Data:      14/ago/2004 
+!!!    0  Linha:     4  // Propósito: Teste de tabela string 
+!!!    0  Linha:     5  // 
+    7  == Obter string no inicio existente
+   10  == Obter tamanho de string no inicio existente
+   13  == Obter string no meio existente
+   16  == Obter tamanho de string no meio existente
+   19  == Obter string no final existente
+   22  == Obter tamanho de string no final existente
+   25  == Obter string no meio inexistente, strings não iguais
+>>>    1  Linha:    26  Strings não são iguais Deveria ser: >xpto<  É: >Identificação de string ?d não foi encontrada.<
+<<<    0  Linha:    27  Falha esperada foi recuperada. 
+   29  == Obter string no início inexistente
+   32  == Obter string no final inexistente
+   35  == Obter string inexistente
+   38  == Obter tamanho de string inexistente, tamanho esperado qualquer
+   41  == Tornal incorreto o id da mensagem de string inexistente
+   44  == Obter string existente deturpado, esperando OK
+>>>    1  Linha:    45  Strings não são iguais Deveria ser: >??????????<  É: >?!?!?<
+<<<    0  Linha:    46  Falha esperada foi recuperada. 
+   48  == Obter string existente deturpado, esperando erro de tabelas
+   51  == Obter string inexistente e mensagem de erro inexistente
+   54  == Obter tamanho de string inexistente, tamanho da mensagem de erro
+   58  == Obter tamanho real de string comum
+   61  == Obter tamanho real de string com todos os escapes de um caractere
+   64  == Obter tamanho real de string com escapes octais corretos
+   67  == Obter tamanho real de string com escapes octais errados
+   70  == Obter tamanho real de string com escapes hexadecimais
+   73  == Obter tamanho real de string com escapes hexadecimais
+   76  == Obter tamanho real de string com escapes misturados
+   79  == Obter string cujo id foi deturpado
+   82  == Obter string que cabe no espaço dado, excesso
+   85  == Obter string que cabe no espaço dado, exato  (o espaço deve considerar o zero final!)
+   88  == Obter string que cabe no espaço dado, falta
+!!!    0  Linha:    91  // fim 
+
+!!! Número de linhas lidas:          91
+!!! Número de casos de teste:        27
+!!! Número comandos corretos:        25
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0
