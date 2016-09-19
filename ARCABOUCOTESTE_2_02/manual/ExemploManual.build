@@ -1,5 +1,0 @@
-/OUT:ExemploManual.exe
-/INCREMENTAL:NO
-/MACHINE:IX86
-Tst_Arv.obj  Arvore.obj  
-
