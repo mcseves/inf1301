@@ -1,0 +1,140 @@
+// Script:    TesteListaOrdenada.script
+// Autor:     Gustavo Azevedo e Maria Carolina Santos
+// Data:      17/set/2016
+// Propósito: Testar o módulo lista genérica duplamente encadeada, com elementos ordenados
+//
+
+== Inicializar valores
+=declararparm   lista0  int 0
+=declararparm   lista1  int 1
+=declararparm   lista2  int 2
+
+=declararparm   ini0    string  "ABC"
+=declararparm	nome0	string	"Aline Barros Cardoso"
+=declararparm   ini1    string  "MNO"
+=declararparm	nome1 	string	"Maria Nascimento Orlandino"
+=declararparm   ini2    string  "GHF"
+=declararparm	nome2	string	"Gustavo Henrique Filho"
+=declararparm   ini3    string  "JLN"
+=declararparm	nome3	string	"Julio Luis Neto"
+=declararparm 	ini4 	string	"SMF"
+=declararparm	nome4	string	"Sergio Moura Franco"
+=declararparm	ini5	string 	"CDF"
+=declararparm	nome5	string	"Carlos Dias Faria"
+
+=declararparm   OK             int  0
+=declararparm   ListaVazia     int  1
+=declararparm   FimLista       int  2
+=declararparm   NaoAchou       int  3
+=declararparm   FaltouMemoria  int  4
+
+=declararparm   pNULL          int  0
+=declararparm   pNaoNULL       int  1
+
+
+== Criar a lista 0
+=criarlista      lista0 
+
+==Print na lista vazia
+=printlista lista0 "" OK
+
+== Verificar ObterValor relativo a lista vazia
+=obtervalorelem  lista0   "???"  "??"    pNULL
+
+== Verificar AvancarElementoCorrente relativo a lista vazia
+=avancarelem lista0 1 ListaVazia
+
+== Verificar ExcluirElemento relativo a lista vazia 
+=excluirelem lista0 1
+
+== Verificar ProcurarElemento relativo a lista vazia
+=procv lista0 "?" "??" ListaVazia
+
+== Inserir elemento em lista vazia
+=insertval		 lista0   ini0 nome0  OK
+=obtervalorelem  lista0   ini0 nome0  pNaoNULL
+
+== Inserir elemento 2
+=insertval		 lista0   ini1 nome1  OK
+=obtervalorelem  lista0   ini1 nome1  pNaoNULL
+
+== Mostrar valores da lista em ordem
+=printlista lista0 "ABCAline Barros CardosoMNOMaria Nascimento Orlandino" OK
+
+== Inserir elemento 3
+=insertval		 lista0   ini2 nome2  OK
+=obtervalorelem  lista0   ini2 nome2  pNaoNULL
+
+== Excluir elemento do meio
+=obtervalorelem  lista0   ini2 nome2   pNaoNULL
+=excluirelem     lista0             OK
+
+== Excluir elemento do início
+=obtervalorelem  lista0   ini0 nome0   pNaoNULL
+=excluirelem     lista0             OK
+
+== Excluir elemento final, único 
+=obtervalorelem  lista0   ini1 nome1   pNaoNULL
+=excluirelem     lista0             OK
+
+== Ver se a lista ficou vazia
+=obtervalorelem  lista0   "???" "???"     pNULL
+
+== Ir para o primeiro elemento da lista vazia 
+=irinicio lista0 
+=obtervalorelem  lista0  "???" "???"     pNULL
+
+== Ir para o ultimo elemento da lista 
+=irfinal lista0
+=obtervalorelem  lista0   "???" "???"    pNULL
+
+== Destruir a lista
+=destruirlista   lista0
+
+== Criar uma lista com dois elementos
+=criarlista      lista1 
+=insertval     lista1   ini0 nome0   OK
+=insertval     lista1   ini1 nome1   OK
+
+== Esvaziar a lista e ver se ficou vazia
+=esvaziarlista   lista1
+=obtervalorelem  lista1   "???" "???"     pNULL
+
+== Destruir a lista
+=destruirlista   lista1
+
+== Criar uma lista com seis elementos
+=criarlista      lista2 
+=insertval     lista2   ini0 nome0   OK
+=insertval     lista2   ini1 nome1   OK
+=insertval     lista2   ini2 nome2   OK
+=insertval     lista2   ini3 nome3   OK
+=insertval	   lista2   ini4 nome4   OK
+=insertval	   lista2	ini5 nome5	 OK
+
+== Verificar a lista andando demais de trás para diante
+=avancarelem     lista2   -10     FimLista
+=obtervalorelem  lista2   ini0 nome0   pNaoNULL
+
+== Verificar a lista andando demais de frente para trás
+=avancarelem     lista2   10     FimLista
+=obtervalorelem  lista2   ini4 nome4   pNaoNULL
+
+== Ir para o primeiro elemento da lista 
+=irinicio lista2 
+=obtervalorelem  lista2   ini0 nome0 pNaoNULL
+
+== Ir para o ultimo elemento da lista 
+=irfinal lista2 
+=obtervalorelem  lista2   ini4 nome4   pNaoNULL
+
+== Procurar elemento CDF, Carlos Dias Faria
+=procv lista2 ini5 nome5 OK
+
+== Procurar elemento que nao existe
+=procv lista2 "??" "??" NaoAchou
+
+== Destruir a lista
+=destruirlista   lista2
+
+// fim

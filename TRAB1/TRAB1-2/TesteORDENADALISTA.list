@@ -1,0 +1,115 @@
+GERADOR DE SCRIPT DE DIRETIVAS PARA MAKE
+   LES / Informática / PUC-Rio    Versão 6.00 (c) 2005
+
+Composição do construto: TesteORDENADALISTA.comp
+
+   Nome do Construto:           TesteORDENADALISTA
+   Diretório base:              C:\Modular\arcaboucoteste\TRAB1\TRAB1-2
+
+   Arquivo composição:          TesteORDENADALISTA.comp
+   Arquivo plataforma:          gmake.parm
+
+   Arquivo diretivas MAKE:      TesteORDENADALISTA.make
+   Arquivo diretivas LINK:      TesteORDENADALISTA.build
+   Arquivo listagem:            TesteORDENADALISTA.list
+
+Módulos do construto: TesteORDENADALISTA.comp
+
+   TESTORDENADALIS.c
+   ORDENADALISTA.c
+
+Estatísticas do construto
+
+   Estatísticas do arquivo: Generico.h
+      Total linhas:             713
+      Linhas de código:          59
+      Linhas de comentário:     572
+      Linhas em branco:          82
+   Arquivos de inclusão de que necessita
+      TST_Espc.h
+   Arquivos em que é incluído
+      TESTORDENADALIS.c
+
+   Estatísticas do arquivo: LerParm.h
+      Total linhas:             291
+      Linhas de código:          36
+      Linhas de comentário:     188
+      Linhas em branco:          67
+   Arquivos em que é incluído
+      TESTORDENADALIS.c
+
+   Estatísticas do arquivo: ORDENADALISTA.c
+      Total linhas:             698
+      Linhas de código:         375
+      Linhas de comentário:     165
+      Linhas em branco:         180
+   Arquivos de inclusão de que necessita
+      ORDENADALISTA.h
+
+   Estatísticas do arquivo: ORDENADALISTA.h
+      Total linhas:             388
+      Linhas de código:          40
+      Linhas de comentário:     299
+      Linhas em branco:          49
+   Arquivos em que é incluído
+      ORDENADALISTA.c
+      TESTORDENADALIS.c
+
+   Estatísticas do arquivo: TESTORDENADALIS.c
+      Total linhas:             507
+      Linhas de código:         287
+      Linhas de comentário:      92
+      Linhas em branco:         143
+   Arquivos de inclusão de que necessita
+      Generico.h
+      LerParm.h
+      ORDENADALISTA.h
+      TST_Espc.h
+
+   Estatísticas do arquivo: TST_Espc.h
+      Total linhas:             228
+      Linhas de código:          23
+      Linhas de comentário:     185
+      Linhas em branco:          20
+   Arquivos em que é incluído
+      Generico.h
+      TESTORDENADALIS.c
+
+Totais por tipo de arquivo
+
+  Tipo: obj      Path: .
+         Total linhas do tipo:         0
+         Linhas de código:             0
+         Linhas de comentário:         0
+         Linhas em branco:             0
+         Arquivos deste tipo:          0
+
+  Tipo: err      Path: .
+         Total linhas do tipo:         0
+         Linhas de código:             0
+         Linhas de comentário:         0
+         Linhas em branco:             0
+         Arquivos deste tipo:          0
+
+  Tipo: DEFAULT  Path: .
+         Total linhas do tipo:      1620
+         Linhas de código:           158
+         Linhas de comentário:      1244
+         Linhas em branco:           218
+         Arquivos deste tipo:          4
+
+  Tipo: c        Path: .
+         Total linhas do tipo:      1205
+         Linhas de código:           662
+         Linhas de comentário:       257
+         Linhas em branco:           323
+         Arquivos deste tipo:          2
+
+Totais para todo o construto TesteORDENADALISTA
+
+   Total linhas:              2825
+   Linhas de código:           820
+   Linhas de comentário:      1501
+   Linhas em branco:           541
+   Arquivos processados:         6
+

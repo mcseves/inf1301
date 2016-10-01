@@ -1,0 +1,13 @@
+Data    Horas Trabalhadas    Tipo Tarefa		        Descrição da Tarefa Realizada
+10/09   1                    estudar                    Estudo da monografia escrita por Arndt Von Staa sobre o Arcabouço de Testes de programas redigidos em C
+10/09   2                    estudar                    Familiriazação com os exemplos de uso do arcabouço
+11/09   2                    estudar                    Familiriazação com os exemplos de uso do arcabouço
+13/09   1                    projetar 	 	   Estudar modificações necessárias referentes ao módulo LISTA
+15/09   1                    redigir script de teste    Adaptar o script TesteLista.script
+15/09   1,5                  redigir script de teste    Criar o script TesteListaOrdenada.script para o módulo novo de ListaOrdenada
+15/09   0,5                  revisar script de teste    Revisar o script de TesteLista.script e TesteListaOrdenada.script
+17/09   2                    codificar módulos	   Implementação de procurar valor no módulo TESTLIS e no módulo TESTORDENADALIS
+17/09   0,1 		      revisar script de teste    Corrigir scrip de testes
+17/09   1                    revisar projetos           Revisão de todo o trabalho
+18/09   2		      revisar módulos	           Revisão dos módulos LISTA.C e ORDENADALISTA.C
+19/09 	 3		      diagnosticar e corrigir os problemas encontrados Correção de erros encontrados nos módulos de Lista e Lista ordenada.

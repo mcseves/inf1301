@@ -1,0 +1,50 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TesteORDENADALISTA
+!!!      Script de teste:     TesteORDENADALISTA.script
+
+!!!    0  Linha:     1  // Script:    TesteListaOrdenada.script 
+!!!    0  Linha:     2  // Autor:     Gustavo Azevedo e Maria Carolina Santos 
+!!!    0  Linha:     3  // Data:      17/set/2016 
+!!!    0  Linha:     4  // Propósito: Testar o módulo lista genérica duplamente encadeada, com elementos ordenados 
+!!!    0  Linha:     5  // 
+    7  == Inicializar valores
+   35  == Criar a lista 0
+   38  ==Print na lista vazia
+   41  == Verificar ObterValor relativo a lista vazia
+   44  == Verificar AvancarElementoCorrente relativo a lista vazia
+   47  == Verificar ExcluirElemento relativo a lista vazia
+   50  == Verificar ProcurarElemento relativo a lista vazia
+   53  == Inserir elemento em lista vazia
+   57  == Inserir elemento 2
+   61  == Mostrar valores da lista em ordem
+   64  == Inserir elemento 3
+   68  == Excluir elemento do meio
+   72  == Excluir elemento do início
+   76  == Excluir elemento final, único
+   80  == Ver se a lista ficou vazia
+   83  == Ir para o primeiro elemento da lista vazia
+   87  == Ir para o ultimo elemento da lista
+   91  == Destruir a lista
+   94  == Criar uma lista com dois elementos
+   99  == Esvaziar a lista e ver se ficou vazia
+  103  == Destruir a lista
+  106  == Criar uma lista com seis elementos
+  115  == Verificar a lista andando demais de trás para diante
+  119  == Verificar a lista andando demais de frente para trás
+  123  == Ir para o primeiro elemento da lista
+  127  == Ir para o ultimo elemento da lista
+  131  == Procurar elemento CDF, Carlos Dias Faria
+  134  == Procurar elemento que nao existe
+  137  == Destruir a lista
+!!!    0  Linha:   140  // fim 
+
+!!! Número de linhas lidas:         140
+!!! Número de casos de teste:        29
+!!! Número comandos corretos:        71
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

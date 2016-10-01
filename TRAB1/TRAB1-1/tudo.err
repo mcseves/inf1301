@@ -1,0 +1,11 @@
+TestLis.c
+Lista.c
+Microsoft (R) Incremental Linker Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/OUT:TesteLista.exe 
+/INCREMENTAL:NO 
+/MACHINE:IX86 
+TestLis.obj Lista.obj 
+C:\Modular\arcaboucoteste\TRAB1\Libs\ArcaboucoTeste.lib 
+

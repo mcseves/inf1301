@@ -1,0 +1,9 @@
+Data    Horas Trabalhadas    Tipo Tarefa		        Descrição da Tarefa Realizada
+10/09   3,5                 estudar                    Estudo da monografia escrita por Arndt Von Staa sobre o Arcabouço de Testes de programas redigidos em C
+13/09   2                    projetar                    Primeiros rascunhos da proposta de solução. Ainda no papel.
+13/09   2                    codificar                  Código rápido para familiarização com arcabouço e análise macro da proposta.
+15/09   5                    codificar módulo   	   Criar branch de lista para lista ordenada com primeiras alterações.
+16/09   5                    codificar módulo       Continuação do desenvolvimento da lista ordenada com ajustes nos arquivos de infra (.bat)
+17/09   8                  	 codificar módulo       Continuação do desenvolvimento da lista ordenada: adequação do arquivo TESTEORDENALIS.c
+19/09   4                    testes                      Testes, correções e ajustes.
+19/09   1                    revisar módulos	        Revisões para entrega e finalzação de documentação.

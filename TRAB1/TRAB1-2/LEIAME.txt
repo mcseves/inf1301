@@ -1,0 +1,24 @@
+// Trabalho realizado por Gustavo Azevedo e Maria Carolina Santos
+
+// Modo de Uso do programa
+
+	O programa pode ser utilizado de forma simples, com dois cliques no arquivo: TRAB1-2.bat. 
+	O programa aceita scripts de teste para a estrutura do módulo descrita no arquivo ORDENADALISTA.H
+	e exibe seus resultados no arquivo TesteORDENADALISTA.txt. Caso queira gerar novos casos de teste,
+	edite o arquivo TesteORDENADALISTA.script seguindo a sintaxe abaixo para cada função externa do módulo.
+
+//Comandos do script do teste de LISTA ORDENADA
+
+*     =resetteste
+*           - anula o vetor de listas. Provoca vazamento de memória
+*     =criarlista          inxLista
+*     =esvaziarlista       inxLista
+*     =destruirlista       inxLista
+*     =insertval           inxLista  stirng string TST_tpCondRet
+*     =excluirelem         inxLista  TST_tpCondRet
+*     =obtervalorelem      inxLista  string string TST_tpCondRet
+*     =irinicio            inxLista
+*     =irfinal             inxLista
+*     =avancarelem         inxLista  numElem TST_tpCondRet
+*	    =procv					     inxLista  string string TST_tpCondRet
+*     =printlista				   inxLista  string TST_tpCondRet

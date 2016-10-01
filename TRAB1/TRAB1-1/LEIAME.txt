@@ -1,0 +1,34 @@
+// Trabalho realizado por Gustavo Azevedo e Maria Carolina Santos
+
+// Modo de Uso do programa
+
+	O programa pode ser utilizado de forma simples, com dois cliques no arquivo: TRAB1-1.bat. 
+	O programa aceita scripts de teste para a estrutura do módulo descrita no arquivo LISTA.H
+	e exibe seus resultados no arquivo TesteLista.txt. Caso queira gerar novos casos de teste,
+	edite o arquivo TesteLista.script seguindo a sintaxe abaixo para cada função externa do módulo.
+
+//Comandos do script do teste de LISTA
+
+*     =resetteste - anula o vetor de listas. Provoca vazamento de memória
+*     =criarlista                   inxLista
+*     =destruirlista                inxLista
+*     =esvaziarlista                inxLista
+*     =inselemantes                 inxLista  string  CondRetEsp
+*     =inselemapos                  inxLista  string  CondRetEsp
+*     =obtervalorelem               inxLista  string  CondretPonteiro
+*     =excluirelem                  inxLista  CondRetEsp
+*     =irinicio                     inxLista
+*     =irfinal                      inxLista
+*     =avancarelem                  inxLista  numElem CondRetEsp
+*     =procv                        inxLista  string  CondRetEsp
+
+// Observações:
+
+Além dos testes apresentados, o próprio arcabouço foi testado gerando casos de falha conhecida,
+vide exemplo abaixo. Estes testes foram suprimidos do script apresentado, para não gerar dúvidas
+quanto a entrega de módulo com erros conhecidos.
+
+== Teste do teste. Passando retorno esperado errado e validando o teste. 
+=avancarelem lista0 1 pNULL
+Resultado:
+>>>    1  Linha:    33  Condicao de retorno errada ao avancar Deveria ser: 0  É: 1
